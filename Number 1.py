@@ -5,6 +5,6 @@ y2 = float(input("enter value of y2"))
 
 summary = (y2-y1)/(x2-x1)
 
-print("The slope for the line that connects two points", (x1,y1), "and", (x2,y2), "is", summary)
+print("The slope for the line that connects two points", (x1,y1), "and", (x2,y2), "is", format(summary, '.5f'))
 
 
